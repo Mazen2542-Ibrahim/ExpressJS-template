@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  margin-bottom: 0.3rem;
+  width: fit-content;
+}
+
+.contianer {
+  max-width: 1400px;
+  margin-inline: auto;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  width: 300px;
+  aspect-ratio: 1;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  transform: translate(-5%, -90%);
+}
+p {
+  width: fit-content;
+  font-size: 1.5rem;
+}
+.welcome > p:nth-child(1) {
+  font-size: 1rem;
+}
+
+span {
+  color: #669f64;
+}

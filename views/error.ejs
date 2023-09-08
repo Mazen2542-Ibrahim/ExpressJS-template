@@ -1,0 +1,8 @@
+<div style="max-width: 1400px">
+  <% if (locals.error) { %>
+  <div>
+    <h2><%= error.status + " | " + error.message %></h2>
+    <pre><%= error.stack %></pre>
+  </div>
+  <% } %>
+</div>
